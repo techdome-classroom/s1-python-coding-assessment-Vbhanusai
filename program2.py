@@ -19,4 +19,4 @@ def decode_message( s: str, p: str) -> bool:
             else:
                 dp_table[row][col] = dp_table[row - 1][col - 1] and s[row - 1] == p[col - 1]
     
-    return dp_table[msg_len][pat_len-1]
+    return dp_table[msg_len][pat_len]
