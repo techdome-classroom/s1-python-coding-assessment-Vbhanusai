@@ -17,7 +17,7 @@ class Solution:
         num_islands = 0
         for i in range(len(grid)):
             for j in range(len(grid[0])):
-                if grid[i][j] == '1':
+                if grid[i][j] == 'L':
                     num_islands += 1
                     dfs(i, j)
         return 0
