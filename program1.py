@@ -23,6 +23,6 @@ class Solution:
         return num_islands
 
 k= Solution()
-grid = 
+grid = [["L","L","L","L","W"],["L","L","W","L","W"],["L","L","W","W","W"],["W","W","W","W","W"]]
 l=k.getTotalIsles(grid)
 print(l)
