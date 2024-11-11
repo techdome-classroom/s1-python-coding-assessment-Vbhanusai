@@ -20,7 +20,7 @@ class Solution:
                 if grid[i][j] == 'L':
                     num_islands += 1
                     dfs(i, j)
-        return 0
+        return num_islands
 
 k= Solution()
 grid = [["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]
