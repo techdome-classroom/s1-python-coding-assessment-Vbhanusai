@@ -6,7 +6,7 @@ class Solution:
             return 0
         
         def dfs(i, j):
-            if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] != '1':
+            if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] != 'L':
                 return
             grid[i][j] = 'W'
             dfs(i+1, j)
