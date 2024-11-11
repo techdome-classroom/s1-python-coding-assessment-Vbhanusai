@@ -4,6 +4,7 @@ def decode_message( s: str, p: str) -> bool:
     msg_len, pat_len = len(s), len(p)
     dp_table = [[False] * (pat_len + 1) for _ in range(msg_len + 1)]
     
+    
     dp_table[0][0] = True
     
     for col in range(1, pat_len + 1):
