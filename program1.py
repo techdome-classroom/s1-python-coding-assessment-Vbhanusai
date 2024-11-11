@@ -21,8 +21,3 @@ class Solution:
                     num_islands += 1
                     dfs(i, j)
         return num_islands
-
-k= Solution()
-grid = [["L","L","L","L","W"],["L","L","W","L","W"],["L","L","W","W","W"],["W","W","W","W","W"]]
-l=k.getTotalIsles(grid)
-print(l)
