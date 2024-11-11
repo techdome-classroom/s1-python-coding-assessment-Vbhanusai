@@ -21,3 +21,6 @@ class Solution:
                     num_islands += 1
                     dfs(i, j)
         return 0
+
+k= Solution()
+k.getTotalIsles()
