@@ -24,4 +24,5 @@ class Solution:
 
 k= Solution()
 grid = [["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]
-k.getTotalIsles(grid)
+l=k.getTotalIsles(grid)
+p
